@@ -1,28 +1,159 @@
-.card--flex {
+main{
+  padding: 6px;
+}
+.card--flex{
   display: flex;
-  flex-direction: row;
-  padding: 45px;
-  cursor: pointer;
+  align-items: center;
+  height: 70px;
+  background: linear-gradient(90deg,#672280 1.1%,#A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+.header--imagr{
+  height: 100%;
+  margin-right: 6px;
+
+}
+.header--title{
+  font-size: 20px;
+  margin-right: auto;
+}
+.header--project{
+  font-size: .75rem;
+  font-weight: 500;
+}
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr ;
+}
+.form--button{
+  grid-column: 3/1;
+  font-family: "karla" ;
+  border-radius: 5px;
+  background: linear-gradient(90deg,#672280 1.1%,#A626D3 100%);
+  border: none;
+
+}
+.form--input{
+  font-family: "karla";
+  border: 1px solid blueviolet;
+  text-indent: 5px;
+  margin-top: 15px;
+  
+}
+.shadow{
+  box-shadow: 10 10 1 rgba(0, 0, 0, 0.5);
+  background-color: aliceblue;
+}
+
+
+.card{
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  box-shadow: 10px 5px 5px 1px rgba(0, 0, 0, 0.5);
  
-  width: 500px;
-  box-shadow: 0px -10px 3px rgba(65, 18, 175, 0.1);
+  
+  
+}
+.formdata{
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 10px ; 
+
+}
+.inputdata{
+  margin: 10px;
+}
+.meme {
   position: relative;
+  display: inline-block; /* Ensures the container only takes the space it needs */
+}
+
+.meme--text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  color: white; /* Optional: Set text color to be visible on the image */
+}
+
+.top {
+  top: 10px; /* Adjust the top positioning as needed */
+}
+
+.bottom {
+  bottom: 10px; /* Adjust the bottom positioning as needed */
+}
+.main--container{
+ 
+  box-shadow: 10px 5px 5px 1px rgba(0, 0, 0, 0.5);
+
+
+
+}
+.main--sun{
+  width: 20px;
+  padding-left: 500px;
+  cursor: pointer;
+
+
+  
+}
+.main--title{
+  padding-left: 500px;
+}
+
+.main--img{
+  width: 40px;
+  padding-left: 12px;
 
  
+
 }
+.dark{
+  background-color: rgb(0, 0, 0);
+  color: white;
 
 
 
-.card--row{
-  padding-left: 15px;
+
+}
+.bck--main{
+  width: 1280px;
+
+
+}
+main{
+  background-color: #f5f5f5;
+  height: 800px;
+  max-width: 1700px;
+}
+.container--die{
+  height: 50px;
+ width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
   display: flex;
-  flex-direction:column ;
+  justify-content: space-around;
+  border-radius: 8px;
+
+  cursor: pointer;
+  margin: 10px;
+  background-color: white;
+  margin-bottom: 40px;
+  
 }
-.card--para{
-  width: 300px;
-}
-.card--img{
-  border-radius: 9px;
-  width: 200px;
+
+
+
+.die--elem {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 3px; 
+  
+ 
+
 
 }
+
