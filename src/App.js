@@ -29,7 +29,7 @@ function App() {
   }
 
   function allnewdice() {
-    return Array.from({ length: 3 }, genernewdice);
+    return Array.from({ length: 10 }, genernewdice);
   }
 
   const [dices, setDices] = useState(allnewdice());
